@@ -1,4 +1,4 @@
-![](./assets/DIAGRAMA UML.png)
+![](./desktop/UML.png)
 
 # Compuertas lógicas
 
