@@ -8,6 +8,7 @@ namespace Library
     {  
 
         [Test]
+        
         public void AndTrueTest()
         {
             LogicInput True = new LogicInput(true);
