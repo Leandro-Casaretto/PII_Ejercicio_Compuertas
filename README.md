@@ -1,4 +1,3 @@
-![]("C:\Users\leand\OneDrive\Escritorio\UML.png")
 
 # Compuertas lógicas
 
