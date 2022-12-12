@@ -2,7 +2,7 @@
 
 # Compuertas lógicas
 
-Ahora que ya tienes más conceptos de programación orientada a objetos y de la sintáxis de C#, te proponemos escribir un ejercicio que ya es conocido... *las compuertas lógicas*.
+Ahora que ya tienes más conceptos de programación orientada a objetos y de la sintáxis de C#, te proponemos escribir un ejercicio que ya es conocido... *las compuertas lógicas*
 
 ## Definiciones previas
 
