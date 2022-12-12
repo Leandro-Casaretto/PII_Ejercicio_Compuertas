@@ -4,5 +4,72 @@
         <name>Library</name>
     </assembly>
     <members>
+        <member name="T:Library.AndGate">
+            <summary>
+            Clase AndGate, hereda de la clase Gate
+            </summary>
+        </member>
+        <member name="M:Library.AndGate.Calculate">
+            <summary>
+            /// En este caso, sí hacemos la implementación del método "Calculate", orientado a lo que necesita la clase AndGate
+            </summary>
+        </member>
+        <member name="T:Library.Gate">
+            <summary>
+            En esta clase realizamos la implementación de la interaz IInput
+            </summary>
+        </member>
+        <member name="P:Library.Gate.Name">
+            <summary>
+            Establecemos las properties
+            </summary>
+        </member>
+        <member name="M:Library.Gate.#ctor(System.String)">
+            <summary>
+            Generamos el constructor
+            </summary>
+        </member>
+        <member name="M:Library.Gate.AddInput(Library.IInput)">
+            <summary>
+            Este método agrega el input
+            </summary>
+            <param name="IInput"></param>
+        </member>
+        <member name="M:Library.Gate.Calculate">
+            <summary>
+            Método abstracto para hacer el calculo (sin implementación)
+            </summary>
+        </member>
+        <member name="T:Library.LogicInput">
+            <summary>
+            Clase creada para los inputs de valores lógicos
+            </summary>
+        </member>
+        <member name="M:Library.LogicInput.#ctor(System.Boolean)">
+            <summary>
+            Este método únicamente devuelve el valor
+            </summary>
+            <param name="valor"></param>
+        </member>
+        <member name="T:Library.NotGate">
+            <summary>
+            Clase NotGate, hereda de la clase Gate
+            </summary>
+        </member>
+        <member name="M:Library.NotGate.Calculate">
+            <summary>
+            En este caso si hacemos la implementación del método "Calculate", orientado a lo que necesita la clase NotGate
+            </summary>
+        </member>
+        <member name="T:Library.OrGate">
+            <summary>
+            Clase OrGate, hereda de la clase Gate
+            </summary>
+        </member>
+        <member name="M:Library.OrGate.Calculate">
+            <summary>
+            En este caso, sí hacemos la implementación del método "Calculate", orientado a lo que necesita la clase OrGate 
+            </summary>
+        </member>
     </members>
 </doc>
