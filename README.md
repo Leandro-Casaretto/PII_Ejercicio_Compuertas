@@ -1,3 +1,5 @@
+![](./assets/DIAGRAMA UML.png)
+
 # Compuertas lógicas
 
 Ahora que ya tienes más conceptos de programación orientada a objetos y de la sintáxis de C#, te proponemos escribir un ejercicio que ya es conocido... *las compuertas lógicas*.
@@ -22,7 +24,7 @@ Si lo comparas con las expresiones booleanas de un lenguaje de programación com
 La función que realiza la compuerta OR es la asociada a la suma, y matemáticamente la expresamos como + en el álgebra booleana. Esta compuerta presenta un estado alto en su salida (1) cuando al menos una de sus entradas también está en estado alto (1). En cualquier otro caso, cuando todas sus entradas son 0 la salida será 0. Tal como ocurre con otras compuertas, el número de entradas puede ser mayor a dos. En el siguiente ejemplo representamos A + B.
 
 
-![](./assets/or.png)
+![](./assets/DIAGRAMA UML.png)
 
 
 Como era de esperar, esta compuerta funciona de manera análoga al operador or en un lenguaje como Python (nuevamente, los 0 representan False y 1 True).
