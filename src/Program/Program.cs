@@ -1,27 +1,39 @@
-﻿//--------------------------------------------------------------------------------
-// <copyright file="Program.cs" company="Universidad Católica del Uruguay">
-//     Copyright (c) Programación II. Derechos reservados.
-// </copyright>
-//--------------------------------------------------------------------------------
+﻿using System;
+using System.Collections.Generic;
 
-using System;
-using ClassLibrary;
-
-namespace ConsoleApplication
+namespace Library
 {
-    /// <summary>
-    /// Programa de consola de demostración.
-    /// </summary>
-    public static class Program
+    
+    public class Program
     {
-        /// <summary>
-        /// Punto de entrada al programa principal.
-        /// </summary>
-        public static void Main()
+        public static void Main(string[] args)
         {
-            var train = new Train();
-            train.StartEngines();
-            Console.WriteLine("Hello World!");
+        
+        AndGate and1 = new AndGate("and1");
+
+        OrGate or1 = new OrGate("or1");
+
+        NotGate not1 = new NotGate("not1");
+
+        IInput logicInput1 = new LogicInput(false);
+
+        IInput logicInput2 = new LogicInput(true);
+
+        IInput logicInput3 = new LogicInput(false);
+
+        and1.AddInput(logicInput1);
+        and1.AddInput(logicInput2);
+
+
+        or1.AddInput(logicInput1);
+        or1.AddInput(and1);
+
+        not1.AddInput(or1);
+
+        Console.WriteLine($"El resultado es {or1.Calculate()}");
+
+
+
         }
     }
 }
