@@ -4,10 +4,5 @@
         <name>LibraryTests</name>
     </assembly>
     <members>
-        <member name="T:Library.OrGateTest">
-            <summary>
-            Prueba de la clase <see cref="!:Train"/>.
-            </summary>
-        </member>
     </members>
 </doc>
