@@ -15,7 +15,7 @@ Con dos o más entradas, esta compuerta realiza la función de la multiplicació
 
 Si lo comparas con las expresiones booleanas de un lenguaje de programación como Python, el valor 0 corresponde a False, mientras que 1 corresponde a True. Luego, la tabla de verdad se corresponde con el operador and. 
 
-![](./assets/and.png)
+![](DIAGRAMA UML.png)
 
 
 #### Compuerta OR
