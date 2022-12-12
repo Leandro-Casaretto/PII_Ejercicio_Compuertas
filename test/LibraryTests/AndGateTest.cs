@@ -11,7 +11,16 @@ namespace Library
         
         public void AndTrueTest()
         {
+            /// <summary>
+            /// Hardcodeamos el LogicInput
+            /// </summary>
+            
             LogicInput True = new LogicInput(true);
+            
+            /// <summary>
+            /// Creamos la AndGate
+            /// </summary>
+            
             AndGate and1 = new AndGate ("And_1");
             
             and1.AddInput(True);
@@ -23,9 +32,17 @@ namespace Library
         [Test]
         public void AndFalseTest()
         {
+            /// <summary>
+            /// Hardcodeamos los LogicInput
+            /// </summary>
+            /// 
             LogicInput False = new LogicInput(false);
             LogicInput True = new LogicInput(true);
 
+            /// <summary>
+            /// Creamos la AndGate
+            /// </summary>
+            
             AndGate and1 = new AndGate ("And_1");
             
             and1.AddInput(False);
